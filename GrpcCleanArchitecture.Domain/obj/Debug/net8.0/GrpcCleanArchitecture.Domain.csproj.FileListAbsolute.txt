@@ -1,0 +1,11 @@
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Domain\bin\Debug\net8.0\GrpcCleanArchitecture.Domain.deps.json
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Domain\bin\Debug\net8.0\GrpcCleanArchitecture.Domain.dll
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Domain\bin\Debug\net8.0\GrpcCleanArchitecture.Domain.pdb
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Domain\obj\Debug\net8.0\GrpcCleanArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Domain\obj\Debug\net8.0\GrpcCleanArchitecture.Domain.AssemblyInfoInputs.cache
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Domain\obj\Debug\net8.0\GrpcCleanArchitecture.Domain.AssemblyInfo.cs
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Domain\obj\Debug\net8.0\GrpcCleanArchitecture.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Domain\obj\Debug\net8.0\GrpcCleanArchitecture.Domain.dll
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Domain\obj\Debug\net8.0\refint\GrpcCleanArchitecture.Domain.dll
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Domain\obj\Debug\net8.0\GrpcCleanArchitecture.Domain.pdb
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Domain\obj\Debug\net8.0\ref\GrpcCleanArchitecture.Domain.dll

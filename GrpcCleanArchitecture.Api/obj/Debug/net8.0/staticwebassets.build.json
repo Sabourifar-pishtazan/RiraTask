@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "hhoe3M1CmNtKLC3Li1gTzrDK07MdhzdLQhAUrjyv6uE=",
+  "Source": "GrpcCleanArchitecture.Api",
+  "BasePath": "_content/GrpcCleanArchitecture.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

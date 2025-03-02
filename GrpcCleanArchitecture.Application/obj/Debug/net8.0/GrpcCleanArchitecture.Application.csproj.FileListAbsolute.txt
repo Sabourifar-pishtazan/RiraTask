@@ -1,0 +1,15 @@
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\bin\Debug\net8.0\GrpcCleanArchitecture.Application.deps.json
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\bin\Debug\net8.0\GrpcCleanArchitecture.Application.dll
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\bin\Debug\net8.0\GrpcCleanArchitecture.Application.pdb
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\bin\Debug\net8.0\GrpcCleanArchitecture.Domain.dll
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\bin\Debug\net8.0\GrpcCleanArchitecture.Domain.pdb
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\obj\Debug\net8.0\GrpcCleanArchitecture.Application.csproj.AssemblyReference.cache
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\obj\Debug\net8.0\GrpcCleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\obj\Debug\net8.0\GrpcCleanArchitecture.Application.AssemblyInfoInputs.cache
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\obj\Debug\net8.0\GrpcCleanArchitecture.Application.AssemblyInfo.cs
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\obj\Debug\net8.0\GrpcCleanArchitecture.Application.csproj.CoreCompileInputs.cache
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\obj\Debug\net8.0\GrpcClea.E1288F83.Up2Date
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\obj\Debug\net8.0\GrpcCleanArchitecture.Application.dll
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\obj\Debug\net8.0\refint\GrpcCleanArchitecture.Application.dll
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\obj\Debug\net8.0\GrpcCleanArchitecture.Application.pdb
+C:\Users\sabou\source\repos\RiraTask\GrpcCleanArchitecture.Application\obj\Debug\net8.0\ref\GrpcCleanArchitecture.Application.dll

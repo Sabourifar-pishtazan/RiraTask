@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "GrpcCleanArchitecture.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GrpcCleanArchitecture.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrpcCleanArchitecture.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GrpcCleanArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "path": "../GrpcCleanArchitecture.Domain/GrpcCleanArchitecture.Domain.csproj",
+      "msbuildProject": "../GrpcCleanArchitecture.Domain/GrpcCleanArchitecture.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "GrpcCleanArchitecture.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sabou\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sabou\\source\\repos\\RiraTask\\GrpcCleanArchitecture.Application\\GrpcCleanArchitecture.Application.csproj",
+      "projectName": "GrpcCleanArchitecture.Application",
+      "projectPath": "C:\\Users\\sabou\\source\\repos\\RiraTask\\GrpcCleanArchitecture.Application\\GrpcCleanArchitecture.Application.csproj",
+      "packagesPath": "C:\\Users\\sabou\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sabou\\source\\repos\\RiraTask\\GrpcCleanArchitecture.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sabou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Fast Reports\\2024.2.6\\FastCube .NET Trial\\Nuget": {},
+        "C:\\Program Files (x86)\\Fast Reports\\2024.2.6\\FastReport .NET Trial\\Nugets": {},
+        "C:\\Program Files (x86)\\Fast Reports\\2024.2.6\\FastReport Avalonia Trial\\Nugets": {},
+        "C:\\Program Files (x86)\\Fast Reports\\2024.2.6\\FastReport Business Graphics .NET Trial\\Nuget": {},
+        "C:\\Program Files (x86)\\Fast Reports\\2024.2.6\\FastReport WPF Trial\\Nugets": {},
+        "C:\\Program Files (x86)\\Fast Reports\\2024.2.9\\FastReport .NET Mono Pack Trial\\Nugets": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\sabou\\source\\repos\\RiraTask\\GrpcCleanArchitecture.Domain\\GrpcCleanArchitecture.Domain.csproj": {
+              "projectPath": "C:\\Users\\sabou\\source\\repos\\RiraTask\\GrpcCleanArchitecture.Domain\\GrpcCleanArchitecture.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
