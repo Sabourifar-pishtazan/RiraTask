@@ -1,19 +1,48 @@
-در صورتی عملیات با خطا مواجه شود چه راهکار هایی را پیرنهاد می دهید؟
+جهت تست عملیات یک برنامه کنسولی نوشته شد 
+.class Program
+{
+    static async Task Main(string[] args)
+    {
+        try
+        {
+            using var channel = GrpcChannel.ForAddress("https://localhost:7107");//****
+            var client = new PersonService.PersonServiceClient(channel);
 
-برای شناسایی نوع خطا از کدهای وضعیت#
- (Status Codes) 
-استفاده می‌شود
+            var createResponse = await client.CreatePersonAsync(new CreatePersonRequest
+            {
+                FirstName = "nilo",
+                LastName = "sa",
+                NationalCode = "12345",
+                BirthDate = Timestamp.FromDateTime(DateTime.UtcNow)
+            });
+
+            Console.WriteLine($"Created Person ID: {createResponse.Id}");
+
+            var getResponse = await client.GetPersonByIdAsync(new PersonByIdRequest { Id = createResponse.Id });
+            Console.WriteLine($"Fetched Person: {getResponse.FirstName} {getResponse.LastName}, BirthDate: {getResponse.BirthDate.ToDateTime()}");
+
+            var updateResponse = await client.UpdatePersonAsync(new UpdatePersonRequest
+            {
+                Id = createResponse.Id,
+                FirstName = "Updated",
+                LastName = "Updated",
+                NationalCode = "67890",
+                BirthDate = Timestamp.FromDateTime(DateTime.UtcNow.AddYears(-5)) 
+            });
+            Console.WriteLine($"Updated Person Name: {updateResponse.FirstName}");
+
+            var deleteResponse = await client.DeletePersonAsync(new PersonByIdRequest { Id = createResponse.Id });
+            Console.WriteLine($"Deleted Successfully: {deleteResponse.Success}");
+        }
+        catch (Exception ex) 
+        {
+
+            Console.WriteLine($"ex: {ex.Message}");
 
 
-استفاده از #
-Logging 
-برای خطاها
+        }
+    }
+        
+   
+}
 
-
-برای خطاهایی که ممکن است موقتی باشند#
- (مثلاً خطاهای شبکه یا دیتابیس)،
-  از یک مکانیزم 
-retry 
- استفاده شود ،با توجه به تجربیات استفاده از 
-hangFire
-برای جاب ها اثر بخش میباشد.
